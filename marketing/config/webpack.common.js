@@ -9,7 +9,7 @@ const CommonConfig = {
     app: './src/index.js',
   },
   output: {
-    filename: 'assets/js/[name].js',
+    filename: 'assets/js/[name].[contenthash].js',
     path: path.join(__dirname, '../', 'build'),
   },
   plugins: [
